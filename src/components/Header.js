@@ -1,5 +1,6 @@
 import React from 'react';
 import { css } from '@emotion/core';
+import Nav from './Nav';
 
 
 const Header = () => {
@@ -27,8 +28,14 @@ const Header = () => {
                text-align:center;
                `}
                >Hotel Gatsby</h1>
+
+             <Nav/>
            </div>
+
+           
        </header>
+
+       
     );
 }
 
