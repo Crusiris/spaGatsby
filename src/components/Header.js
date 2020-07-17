@@ -1,6 +1,6 @@
 import React from 'react';
 import { css } from '@emotion/core';
-import Nav from './Nav';
+import Navbar from './Nav';
 
 
 const Header = () => {
@@ -29,7 +29,7 @@ const Header = () => {
                `}
                >Hotel Gatsby</h1>
 
-             <Nav/>
+             <Navbar/>
            </div>
 
            
